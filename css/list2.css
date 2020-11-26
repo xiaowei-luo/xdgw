@@ -1,0 +1,405 @@
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+}
+/*head样式开始*/
+.headout{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background: #F6F9FB;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head{
+	height: 50px;
+}
+.head ul{
+	display: flex;
+	line-height: 50px;
+	float: left;
+}
+.head ul li{
+	margin-left: 15px;
+}
+.head ul li a{
+	color: #515B6E;
+}
+.head ul li a:hover{
+	color: orangered;
+}
+.headright{
+	float: right;
+	line-height: 50px;
+	display: flex;
+}
+.headright span{
+	cursor: pointer;
+	font-size: 18px;
+	margin-right: 5px;
+}
+.headright>a{
+	margin-right: 15px;
+	color: #363636;
+}
+.headright div{
+	position: relative;
+}
+.headright div ol{
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index: 5000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	border: 1px solid #ddd;
+	background: white;
+	padding: 2px;
+	display: none;
+}
+.headright div ol li{
+	height: 40px;
+	line-height: 40px;
+}
+.headright div ol li:hover{
+	background-color: orangered;
+}
+.headright div ol li:hover a{
+	color: white;
+}
+.headright div ol li a{
+	color: #363636;
+}
+.headright div i{
+	cursor: pointer;
+	line-height: 50px;
+}
+.headright div i:hover{
+	color: orangered;
+}
+/*head2样式开始*/
+.headout2{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	z-index: 100;
+	position: relative;
+}
+.headout2{
+	background-color: white;
+}
+.head2{
+	height: 60px;
+}
+.head2>a{
+	display: block;
+	margin-top: 5px;
+	float: left;
+}
+.head2>a img{
+	height: 50px;
+}
+.sanji{
+	float: left;
+	width: 350px;
+	line-height: 60px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+}
+.sanji li{
+	cursor: pointer;
+	color: #363636;
+	
+}
+.sanji li:hover{
+	color: orangered;
+}
+.sanji li a{
+	color: #363636;
+}
+.sanji li a:hover{
+	color: orangered;
+}
+.head2 form{
+	float: right;
+	width: 300px;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+.head2 form input[type="text"]{
+	width: 298px;
+	height: 38px;
+	border: 1px solid #eee;
+	font-size: 12px;
+	text-indent: 1em;
+}
+.head2 form input[type="submit"]{
+	position: absolute;
+	right: 6px;
+	top: 1px;
+	width: 40px;
+	height: 36px;
+	border-left: 1px solid #ccc;
+	background-color:white ;
+	cursor: pointer;
+}
+/*foot样式开始*/
+.footout{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background-color: #F9F9FA;
+}
+.foot{
+	height: 170px;
+}
+.foot ul{
+	float: left;
+	display: flex;
+	margin-top: 30px;
+}
+.foot ul li{
+	margin-right: 15px;
+}
+.foot ul li a{
+	color: #363636;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+.footright{
+	float: right;
+	text-align: right;
+	position: relative;
+}
+.footright a:first-of-type{
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 15px;
+}
+.footright a:nth-of-type(2){
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	display: block;
+	margin-top: 15px;
+}
+.footright a:nth-of-type(3){
+	position:absolute;
+	top: 20px;
+	right: 250px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: #363636;
+}
+.footright a:nth-of-type(3) span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footright p{
+	color: #A7A7A7;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.footout2{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background-color: white;
+	position: relative;
+}
+.foot2{
+	height: 40px;
+}
+.foot2left{
+	width: 200px;
+	height: 40px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot2left a img{
+	height: 18px;
+}
+.foot2 i{
+	line-height: 40px;
+	float: right;
+	color: #B0B0B0;
+}
+.fix{
+	width: 60px;
+	height: 246px;
+	position: fixed;
+	right: 0px;
+	bottom: 150px;
+	z-index: 1000;
+	display: flex;
+	flex-direction:column ;
+	justify-content: space-between;
+	background: white;
+	opacity: .8;
+	border: 1px solid #CCCCCC;
+}
+.fix a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	color: #CCCCCC;
+	border-bottom: 1px solid #ccc;
+}
+.fix a i:nth-of-type(1){
+	display: block;
+	line-height: 16px;
+	font-size: 16px;
+	margin-top: 15px;
+	display: none;
+}
+.fix a i:nth-of-type(2){
+	display: block;
+	line-height: 16px;
+	font-size: 16px;
+	display: none;
+}
+.fix a:hover{
+	background: orangered;
+	color: white;
+}
+.retop{
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 0px;
+	bottom: 90px;
+	background: white;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	color: #CCCCCC;
+	cursor: pointer;
+	display: none;
+	opacity: .8;
+	border: 1px solid #CCCCCC;
+	z-index: 1000;
+}
+.retop i:nth-of-type(1){
+	display: block;
+	line-height: 16px;
+	font-size: 16px;
+	margin-top: 15px;
+	display: none;
+}
+.retop i:nth-of-type(2){
+	display: block;
+	line-height: 16px;
+	font-size: 16px;
+	display: none;
+}
+.retop:hover{
+	background: orangered;
+	color: white;
+}
+.head2shopout{
+	width: 100%;
+	max-width: 1760px;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	height: 240px;
+	z-index: 2000;
+	background-color: white;
+	display: none;
+}
+.head2shop{
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+.head2shopbutton{
+	color: rgb(221, 221, 221);
+	z-index: 50;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 50px;
+	cursor: pointer;
+	display: none;
+	-webkit-user-select: none;
+}
+.head2shopleft{
+	left: 0;
+}
+.head2shopright{
+	right: 0;
+}
+.head2shopul{
+	height: 100%;
+	margin-left: 0px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.head2shopul li{
+	height: 100%;
+	width: 220px;
+	float: left;
+	overflow: hidden;
+}
+.head2shopul li a{
+	display: block;
+	width: 140px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.head2shopul li a img{
+	width: 140px;
+	margin-top:35px;
+}
+.head2shopul li a h1{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #363636;
+}
+.head2shopul li a h2{
+	margin-top: 3px;
+	color: #F04146;
+}
+.bai1{
+	width: 50px;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+.bai2{
+	width: 50px;
+	height: 100%;
+	float: right;
+	background-color: white;
+}
+.bai3{
+	width: 1100px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}

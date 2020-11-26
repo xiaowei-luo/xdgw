@@ -1,0 +1,76 @@
+[
+	{
+		"name":"智能屏",
+		"shop":[
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1590571322279.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏",
+			"shopprice":"699"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 X8",
+			"shopprice":"599"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1591259232635.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 Air",
+			"shopprice":"199"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1594896624757.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 1S",
+			"shopprice":"329"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1586314493974034.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏 X6(红色版)",
+			"shopprice":"399"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1579259768746873.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 1C",
+			"shopprice":"499"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1566382585429020.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏1C 4G",
+			"shopprice":"699"}
+		]
+		
+	},
+	{"name":"智能音箱",
+	"shop":[
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1590571322279.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏",
+			"shopprice":"699"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 X8",
+			"shopprice":"599"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1591259232635.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 Air",
+			"shopprice":"199"}
+			]
+	},
+	{"name":"智能周边",
+	"shop":[
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1590571322279.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏",
+			"shopprice":"699"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 X8",
+			"shopprice":"599"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1591259232635.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 Air",
+			"shopprice":"199"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1590571322279.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏",
+			"shopprice":"699"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 X8",
+			"shopprice":"599"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1591259232635.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 Air",
+			"shopprice":"199"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1591259232635.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 Air",
+			"shopprice":"199"},
+			{"imgsrc":"https://cms-dumall.cdn.bcebos.com/cms_com_upload_pro/dumall_1594896624757.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 1S",
+			"shopprice":"329"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1586314493974034.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度教育智能屏 X6(红色版)",
+			"shopprice":"399"},
+			{"imgsrc":"https://product-online.cdn.bcebos.com/1579259768746873.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+			"shopname":"小度智能屏 1C",
+			"shopprice":"499"}
+		]
+	}
+]

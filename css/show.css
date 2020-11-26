@@ -1,0 +1,283 @@
+/*当前位置样式*/
+.localout{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background-color: #F6F9FB;
+}
+.localin a{
+	color: #CCCCCC;
+	line-height: 40px;
+}
+.localin-span{
+	cursor: pointer;
+	font-size: 14px;
+}
+/*放大器商品详情样式*/
+.fangdaout{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background-color: white;
+}
+.fangda{
+	position: relative;
+}
+/*放大器左*/
+.fangdaleft{
+	width: 402px;
+	float: left;
+	margin-top: 60px;
+	position: relative;
+}
+.fangdaleft-t{
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	position: relative;
+}
+.fangdaleft-t img{
+	width: 400px;
+	height: 400px;
+}
+.fangdaleft-t div{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: yellow;
+	opacity: 0;
+	z-index: 10;
+	
+}
+.fangdaleft-t div:hover{
+	cursor: pointer;
+}
+.fangda-ke{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	left: 450px;
+	top: 60px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	display: none;
+}
+.fangda-ke img{
+	width: 800px;
+	height: 800px;
+}
+.fangdaleft-b{
+	width: 320px;
+	margin-top: 25px;
+	margin-left: 41px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	position: relative;
+}
+.fangdaleft-b2{
+	width: 1000px;
+	transition: 0.2s;
+}
+.fangdaleft-b img{
+	width: 74px;
+	height: 74px;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 5px;
+}
+.fangdaleft-b .fangdaleft-b-img{
+	border: 1px solid orangered;
+}
+.fangdaleft-b-left{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgray;
+	border: 1px solid darkgray;
+	left: 0;
+	bottom: 55px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+.fangdaleft-b-right{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	color: darkgray;
+	border: 2px solid darkgray;
+	right: 0;
+	bottom: 55px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+/*放大器右*/
+.fangdaright{
+	width: 750px;
+	float: right;
+	margin-top: 60px;
+	position: relative;
+}
+.fangdaright>h1{
+	font: bold 18px/18px "微软雅黑";
+}
+.fangdaright>h2{
+	color: #151515;
+	font: 14px/40px "微软雅黑";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fangdaright>h3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #F04146;
+	font-weight: bold;
+}
+.fangdaright-p{
+	width: 100%;
+	background: url(../img/show/dudududu.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.fangdaright-p>h4{
+	font: bold 25px/50px "微软雅黑";
+	color: #F04146;
+	margin-left: 30px;
+}
+.fangdaright-p>h5{
+	margin-left: 30px;
+}
+.fangdaright-p>h5>i{
+	display: inline-block;
+	border: 1px solid #F04146;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 2px;
+	font:12px/30px "微软雅黑";
+	color:#F04146 ;
+	margin-left: 33px;
+}
+.fangdaright-p>h5>a{
+	font:16px/30px "微软雅黑";
+	color:#F04146 ;
+	margin-left: 6px;
+	cursor: pointer;
+}
+.fangdaright-p>h5>span:nth-of-type(1){
+	color: #999999;
+	line-height: 40px;
+}
+.fangdaright-p>h5>span:nth-of-type(2){
+	background-color:#F04146 ;
+	color: white;
+	border-radius:2px ;
+	margin-left: 33px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 12px/22px "微软雅黑";
+}
+.fangdaright-p>h5>span:nth-of-type(3){
+	margin-left: 6px;
+}
+.fangdaright-p>h6{
+	margin-left: 30px;
+}
+.fangdaright-p>h6>span:nth-of-type(1){
+	color: #999999;
+	line-height: 40px;
+}
+.fangdaright-p>h6>span:nth-of-type(2){
+	margin-left: 33px;
+	font-size:14px;
+}
+.fangdaright-p>h6:nth-of-type(2){
+	margin-bottom: 10px;
+}
+.fangdaright-num{
+	height: 22px;
+	margin-top: 30px;
+	margin-left: 30px;
+	-webkit-user-select: none;
+}
+.fangdaright-num span:nth-of-type(1){
+	color: #999999;
+}
+.fangdaright-btn{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.fangdaright-btn div{
+	display: inline-block;
+	margin-right: 30px;
+	width: 150px;
+	text-align: center;
+	background-image: linear-gradient(90deg, #FFBC79, #FF695C);
+	line-height: 50px;
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+}
+.fangdaright-btn .fangdaright-btn-buy{
+	background-image: linear-gradient(90deg, #FF5055, #FF3030);
+}
+.fangdaright-kucun{
+	margin-top: 30px;
+}
+.fangdaright-kucun span{
+	margin-left: 30px;
+	color: #999999;
+}
+.fangdaright-kucun i{
+	font-size: 14px;
+	margin-left: 20px;
+}
+.fangdaright-num span{
+	display: inline-block;
+}
+.fangdaright-num span:nth-of-type(2){
+	width: 18px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #CCCCCC;
+	margin-left: 30px;
+	cursor: pointer;
+	color: #CCCCCC;
+}
+.fangdaright-num input{
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	border: 1px solid #CCCCCC;
+	line-height: 22px;
+	margin-left: 0px;
+	text-align: right;
+	position: relative;
+	top: -2px;
+}
+.fangdaright-num span:nth-of-type(3){
+	width: 18px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	color: #000000;
+}
+
+
+
+
+/*jieshu*/

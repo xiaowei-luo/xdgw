@@ -1,0 +1,91 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	min-width: 660px;
+	background: url(../img/register/reg_bg_min.jpg) no-repeat;
+	background-size:cover;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.img1{
+	position: absolute;
+	width: 124.4px;
+	height: 40px;
+	top: 80px;
+	left: 60px;
+}
+h1{
+	font:bold 54px/54px "微软雅黑" ;
+	color: white;
+	position: absolute;
+	left: 260px;
+	top: 400px;
+	letter-spacing: 5px;
+}
+h2{
+	font: 32px/32px "微软雅黑";
+	color: white;
+	position: absolute;
+	left: 260px;
+	top:480px;
+	letter-spacing: 6px;
+}
+.box2{
+	width: 480px;
+	height: 554px;
+	background-color: whitesmoke;
+	opacity: 0.91;
+	position: absolute;
+	right: 170px;
+	top:120px;
+	border-radius: 15px;
+	-webkit-user-select: none;
+}
+.box2 h3{
+	font:bolder 36px/36px "微软雅黑";
+	color: #ooo;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.box2 span{
+	margin-left: 30px;
+}
+.box2 i{
+	margin-left: 100px;
+	color: red;
+}
+.box2>span:nth-of-type(1){
+	display: inline-block;
+	font-size: 14px;
+	color: #9b9b9b;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.box2 input:nth-of-type(1),.box2 input:nth-of-type(2),.box2 input:nth-of-type(3){
+	width: 343px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-left:10px;
+	text-indent: 1em;
+}
+.box2 input[type='submit']{
+	width: 360px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #becdfc;
+	/*background-color: #3f89ec;*/
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius:25px ;
+	font:bold 16px/50px "微软雅黑";
+	color: white;
+}
+.box2 input[type='checkbox']{
+	margin-left: 30px;
+	margin-top: 40px;
+}

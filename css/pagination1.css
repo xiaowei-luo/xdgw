@@ -1,0 +1,154 @@
+/*计时器样式开始*/
+.jishiout{
+	width: 100%;
+	max-width: 1760px;
+	margin: 0 auto;
+	background-color: #F9F9FA;
+	margin-bottom: 50px;
+}
+.jishiimg{
+	width: 100%;
+}
+
+.jishiimg img{
+	width: 100%;
+}
+.jishidao{
+	width: 100%;
+	height: 60px;
+	background-image: linear-gradient(140deg, #C47DEF 0%, #EE4587 99%);
+}
+.jishidao>span{
+	display: inline-block;
+}
+.jishidao>span:nth-of-type(1){
+	font: 20px/60px "微软雅黑";
+	color: white;
+	margin-left: 44px;
+}
+.jishidao>span:nth-of-type(2){
+	font: 20px/60px "微软雅黑";
+	color: white;
+	margin-left: 10px;
+}
+.jishidao>span:nth-of-type(3){
+	font: 22px/60px "微软雅黑";
+	color: white;
+	margin-left: 10px;
+}
+.jishidao>span:nth-of-type(4){
+	font: 24px/60px "微软雅黑";
+	color: white;
+	margin-left: 10px;
+}
+.jishidao>span:nth-of-type(5){
+	font: 16px/60px "微软雅黑";
+	color: white;
+	margin-left: 10px;
+}
+.jishidao>span:nth-of-type(6){
+	margin-left: 10px;
+	padding: 6px;
+	background-color: #FFFDEF;
+	color: #EE4587;
+}
+.jishidao>span:nth-of-type(7),.jishidao>span:nth-of-type(9),.jishidao>span:nth-of-type(11){
+	color: white;
+}
+.jishidao>span:nth-of-type(8),.jishidao>span:nth-of-type(10){
+	padding: 6px;
+	background-color: #FFFDEF;
+	color: #EE4587;
+}
+/*分页器页面样式开始*/
+.fengyepage>div{
+	float: left;
+	width: 590px;
+	height: 300px;
+	background-color: white;
+	margin-bottom: 20px;
+	position: relative;
+}
+.fengyepage>div:nth-of-type(even){
+	margin-left: 20px;
+}
+.fpbox-left{
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 10px;
+	float: left;
+}
+.fpbox-left img{
+	width: 180px;
+	height: 180px;
+}
+.fpbox-right{
+	float: left;
+	width: 360px;
+	margin-top: 50px;
+}
+.fpbox-right h1{
+	font:bold 20px/20px "微软雅黑";
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fpbox-right h2{
+	font: 16px/20px "微软雅黑";
+	color: #363636;
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fpbox-right i{
+	display: inline-block;
+	padding: 0 10px;
+	font: 10px/16px "微软雅黑";
+	color: orangered;
+	background-color: rgba(255, 192, 203,.3);
+	border-radius: 8px;
+}
+.fpbox-right h4{
+	color: #FF5055;
+	font-size: 25px;
+	margin-top: 30px;
+}
+.fpqiang{
+	display: inline-block;
+	font: 16px/40px "微软雅黑";
+	background-color: #E8504B;
+	color: white;
+	padding: 0 30px;
+	position: absolute;
+	right: 30px;
+	bottom: 76px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.jindubox{
+	margin-top: 10px;
+	width: 100px;
+	height: 10px;
+	border: 1px solid #CCCCCC;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.jinduson{
+	width: 60px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: orangered;
+}
+.jindubox2 div{
+	float: left;
+}
+.jinduyishou{
+	margin-top: 5px;
+}
+
+
+
+/*end*/
